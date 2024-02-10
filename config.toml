@@ -1,4 +1,4 @@
-baseurl = "https://www.eclipse.org/"
+baseurl = "https://www.eclipse.dev/"
 DefaultContentLanguage = "en"
 title = "The Community for Open Innovation and Collaboration"
 theme = "hugo-solstice-theme"
@@ -37,15 +37,15 @@ pluralizeListTitles = false
   membership_level = "membership_levels"
   participation_level = "participation_levels"
 
-[Author]
-  name = "Christopher Guindon"
-  website = "https://www.eclipse.org"
-  email = "webdev@eclipse-foundation.org"
-  facebook = "eclipse.org"
-  twitter = "ECDTools"
-  youtube = "EclipseFdn"
-  googleplus = "+Eclipse"
-  linkedin = "company/eclipse-foundation/"
+#[Author]
+#  name = "Christopher Guindon"
+#  website = "https://www.eclipse.org"
+#  email = "webdev@eclipse-foundation.org"
+#  facebook = "eclipse.org"
+#  twitter = "ECDTools"
+#  youtube = "EclipseFdn"
+#  googleplus = "+Eclipse"
+#  linkedin = "company/eclipse-foundation/"
 
 [permalinks]
   news = "/:sections/:year/:month/:day/:slug/"
@@ -69,29 +69,29 @@ pluralizeListTitles = false
     url = "/membership"
     weight = 3
     
-[[menu.sidebar]]
-  name = "Documentation"
-  url = "/home"
-  weight = 1
-  identifier = "home"
+#[[menu.sidebar]]
+#  name = "Documentation"
+#  url = "/home"
+#  weight = 1
+#  identifier = "home"
   
-[[menu.sidebar]]
-  parent ="home"
-  name = "hugo-solstice-theme"
-  url = "https://eclipsefdn-hugo-solstice-theme.netlify.app/"
-  weight = 1
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+#[[menu.sidebar]]
+#  parent ="home"
+#  name = "hugo-solstice-theme"
+#  url = "https://eclipsefdn-hugo-solstice-theme.netlify.app/"
+#  weight = 1
+#  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
   
-[[menu.sidebar]]
-  parent ="home"
-  name = "Solstice"
-  url = "https://www.eclipse.org/eclipse.org-common/themes/solstice/docs/"
-  weight = 2
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+#[[menu.sidebar]]
+#  parent ="home"
+#  name = "Solstice"
+#  url = "https://www.eclipse.org/eclipse.org-common/themes/solstice/docs/"
+#  weight = 2
+#  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
 
-[[menu.sidebar]]
-  parent ="home"
-  name = "Hugo"
-  url = "https://gohugo.io/documentation/"
-  weight = 3
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+#[[menu.sidebar]]
+#  parent ="home"
+#  name = "Hugo"
+#  url = "https://gohugo.io/documentation/"
+#  weight = 3
+#  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"

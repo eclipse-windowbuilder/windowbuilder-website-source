@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.legacy-page #midcolumn {
+	width: 73%;
+	padding: 0 10px 10px 10px;
+}
+
+#rightcolumn {
+	width: 260px;
+}
+
+h3 {
+	clear: both;
+}
+
+h7 {
+	font-weight: bold;
+	padding: 5px;
+}
+
+a strong {
+	text-decoration: underline;
+}
+
+#introText p.left {
+	width: 48%;
+	float: left;
+}
+
+#introText p.right {
+	width: 48%;
+	float: right;
+}
+
+#screencast {
+	margin-bottom: 10px;
+}
+
+#downloads-table tr td {
+	padding: 2pt;
+}
+
+#downloads-table tr th {
+	padding: 2pt;
+}

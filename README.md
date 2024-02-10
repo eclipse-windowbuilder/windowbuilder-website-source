@@ -1,14 +1,16 @@
-# hugo-eclipsefdn-website-boilerplate
+#WindowBuilder Website Source
 
-This boilerplate was created to help Eclipse Projects migrate their website to Hugo!
+This project contains the source code for the WindowBuilder website
+
+https://eclipse.dev/windowbuilder/
 
 ## Getting started
 
 Clone the project with submodules and start a web server:
 
 ```bash
-git clone --recurse-submodules https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate.git
-cd hugo-eclipsefdn-website-boilerplate
+git clone --recurse-submodules https://github.com/eclipse-windowbuilder/windowbuilder-website-source.git
+cd  windowbuilder-website-source
 hugo server
 ```
 
@@ -30,20 +32,10 @@ You should first put your Hugo sources in a dedicated Git repository, either at 
 
 Note that each and every Eclipse project automatically gets a Git repository with `git.eclipse.org/www.eclipse.org/<project_name>` (see this [repository index](https://git.eclipse.org/r/plugins/gitiles/www.eclipse.org/) for complete list). This is not where you want to push your Hugo sources. This repository contains the webpages that are automatically and regularly pulled and published on the www.eclipse.org HTTP server. All the content from the master branch will eventually be available at the URL https://www.eclipse.org/<project_name>.
 
-We recommend that our projects start with forking our [hugo-eclipsefdn-website-boilerplate](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate) project.
-
-After forking this project for your own use, please go to your project's Settings > General > Advanced > Remove fork relationship and remove the fork relation, this  won't be necessary unless you want to contribute back to this project.
-
-Once your Hugo sources are in the proper repository, update the file named `Jenkinsfile` at the root of the repository with the proper value for `PROJECT_NAME` and `PROJECT_BOT_NAME` environment variable. We also expect projects to update the README.md, config.toml and all the files in the content folder.
-
-If you don't have a Jenkins instance already, [ask for one](https://wiki.eclipse.org/CBI#Requesting_a_JIPP_instance). If you need assistance with the process, [open a ticket](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/issues/new).
-
-The `Jenkinsfile` example assumes that your project will use `main` as the default branch for your source code. Projects will need to make changes to the file to use a different branch name.
-
 ## Contributing
 
-1. [Fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) the [hugo-eclipsefdn-website-boilerplate](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate) repository
-2. Clone repository: `git clone --recurse-submodules https://gitlab.eclipse.org/[your_gitlab_username]/hugo-eclipsefdn-website-boilerplate.git`
+1. [Fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) the [windowbuilder-website-source](https://github.com/eclipse-windowbuilder/windowbuilder-website-source) repository
+2. Clone repository: `git clone --recurse-submodules https://github.com/eclipse-windowbuilder/windowbuilder-website-source.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Commit your changes: `git commit -m 'Add some feature' -s`
 5. Push feature branch: `git push origin my-new-feature`
@@ -67,17 +59,6 @@ Images, less and JavaScript files for the Eclipse Foundation look and feel.
 
 Hugo theme of the Eclipse Foundation look and feel. 
 
-## Bugs and feature requests
-
-Have a bug or a feature request? Please search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/issues/new).
-
-## Author
-
-**Christopher Guindon (Eclipse Foundation)**
-
-- <https://twitter.com/chrisguindon>
-- <https://github.com/chrisguindon>
-
 ## Trademarks
 
 * Eclipse® is a Trademark of the Eclipse Foundation, Inc.
@@ -85,4 +66,4 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 
 ## Copyright and license
 
-Copyright 2021 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [hugo-eclipsefdn-website-boilerplate authors](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate/-/graphs/main). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate/-/blob/main/LICENSE).
+Copyright 2021 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [windowbuilder-website-source](https://github.com/eclipse-windowbuilder/windowbuilder-website-source/graphs/contributors). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://raw.githubusercontent.com/eclipse-windowbuilder/windowbuilder-website-source/master/LICENSE).

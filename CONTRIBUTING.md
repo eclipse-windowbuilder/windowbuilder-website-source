@@ -1,21 +1,16 @@
 # Contributing to hugo-eclipsefdn-website-boilerplate
 
-
-Thanks for your interest in this project.
-
 ## Project description
 
-hugo-eclipsefdn-website-boilerplate
- is a project to regroup assets for the Eclipse Foundation look and feel. 
+This project contains the source code for the WindowBuilder website
 
-* https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate
-
+https://eclipse.dev/windowbuilder/
 
 ## Developer resources
 
 The project maintains the following source code repositories
 
-* https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate
+https://github.com/eclipse-windowbuilder/windowbuilder-website-source
 
 
 ## Eclipse Contributor Agreement
@@ -36,4 +31,4 @@ https://www.eclipse.org/projects/handbook/#resources-commit
 
 ## Contact
 
-Contact the Eclipse Foundation Webdev team via webdev@eclipse-foundation.org.
+The developers and contributors use the [windowbuilder dev list](https://accounts.eclipse.org/mailing-list/wb-dev). Please subscribe if you have any technical questions. 
