@@ -32,8 +32,8 @@ spec:
   }
  
   environment {
-    PROJECT_NAME = "<project_name>" // must be all lowercase.
-    PROJECT_BOT_NAME = "<Project_name> Bot" // Capitalize the name
+    PROJECT_NAME = "windowbuilder" // must be all lowercase.
+    PROJECT_BOT_NAME = "WindowBuilder Bot" // Capitalize the name
   }
  
   triggers { pollSCM('H/10 * * * *') 
@@ -52,12 +52,8 @@ spec:
         dir('www') {
             sshagent(['git.eclipse.org-bot-ssh']) {
                 sh '''
-                    git clone ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git .
-                    if [ "${BRANCH_NAME}" = "main" ]; then
-                      git checkout master
-                    else
-                      git checkout ${BRANCH_NAME}
-                    fi
+                    git clone git@github.com:eclipse-${PROJECT_NAME}/${PROJECT_NAME}-website-source.git
+                    git checkout ${BRANCH_NAME}
                 '''
             }
         }
@@ -65,12 +61,12 @@ spec:
     }
     stage('Build website (main) with Hugo') {
       when {
-        branch 'main'
+        branch 'master'
       }
       steps {
         container('hugo') {
             dir('hugo') {
-                sh 'hugo -b https://www.eclipse.org/${PROJECT_NAME}/'
+                sh 'hugo -b https://www.eclipse.dev/${PROJECT_NAME}/'
             }
         }
       }
@@ -82,7 +78,7 @@ spec:
       steps {
         container('hugo') {
             dir('hugo') {
-                sh 'hugo -b https://staging.eclipse.org/${PROJECT_NAME}/'
+                sh 'hugo -b https://staging.eclipse.dev/${PROJECT_NAME}/'
             }
         }
       }
@@ -90,7 +86,7 @@ spec:
     stage('Push to $env.BRANCH_NAME branch') {
       when {
         anyOf {
-          branch "main"
+          branch "master"
           branch "staging"
         }
       }
@@ -101,12 +97,12 @@ spec:
                 sh '''
                 git add -A
                 if ! git diff --cached --exit-code; then
-                  echo "Changes have been detected, publishing to repo 'www.eclipse.org/${PROJECT_NAME}'"
+                  echo "Changes have been detected, publishing to repo 'www.eclipse.dev/${PROJECT_NAME}'"
                   git config user.email "${PROJECT_NAME}-bot@eclipse.org"
                   git config user.name "${PROJECT_BOT_NAME}"
                   git commit -m "Website build ${JOB_NAME}-${BUILD_NUMBER}"
                   git log --graph --abbrev-commit --date=relative -n 5
-                  if [ "${BRANCH_NAME}" = "main" ]; then
+                  if [ "${BRANCH_NAME}" = "master" ]; then
                     git push origin HEAD:master
                   else
                     git push origin HEAD:${BRANCH_NAME}

@@ -7,8 +7,8 @@ This boilerplate was created to help Eclipse Projects migrate their website to H
 Clone the project with submodules and start a web server:
 
 ```bash
-git clone --recurse-submodules https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate.git
-cd hugo-eclipsefdn-website-boilerplate
+git clone --recurse-submodules https://github.com/eclipse-windowbuilder/windowbuilder-website-source.git
+cd  windowbuilder-website-source
 hugo server
 ```
 
@@ -42,8 +42,8 @@ The `Jenkinsfile` example assumes that your project will use `main` as the defau
 
 ## Contributing
 
-1. [Fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) the [hugo-eclipsefdn-website-boilerplate](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate) repository
-2. Clone repository: `git clone --recurse-submodules https://gitlab.eclipse.org/[your_gitlab_username]/hugo-eclipsefdn-website-boilerplate.git`
+1. [Fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) the [windowbuilder-website-source](https://github.com/eclipse-windowbuilder/windowbuilder-website-source) repository
+2. Clone repository: `git clone --recurse-submodules https://github.com/eclipse-windowbuilder/windowbuilder-website-source.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Commit your changes: `git commit -m 'Add some feature' -s`
 5. Push feature branch: `git push origin my-new-feature`
@@ -71,13 +71,6 @@ Hugo theme of the Eclipse Foundation look and feel.
 
 Have a bug or a feature request? Please search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/issues/new).
 
-## Author
-
-**Christopher Guindon (Eclipse Foundation)**
-
-- <https://twitter.com/chrisguindon>
-- <https://github.com/chrisguindon>
-
 ## Trademarks
 
 * Eclipse® is a Trademark of the Eclipse Foundation, Inc.
@@ -85,4 +78,4 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 
 ## Copyright and license
 
-Copyright 2021 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [hugo-eclipsefdn-website-boilerplate authors](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate/-/graphs/main). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate/-/blob/main/LICENSE).
+Copyright 2021 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [windowbuilder-website-source](https://github.com/eclipse-windowbuilder/windowbuilder-website-source/graphs/contributors). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://raw.githubusercontent.com/eclipse-windowbuilder/windowbuilder-website-source/master/LICENSE).
