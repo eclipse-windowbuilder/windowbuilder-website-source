@@ -1,4 +1,4 @@
-baseurl = "https://www.eclipse.dev/windowbuilder"
+baseurl = "https://www.eclipse.dev/"
 DefaultContentLanguage = "en"
 title = "The Community for Open Innovation and Collaboration"
 theme = "hugo-solstice-theme"
