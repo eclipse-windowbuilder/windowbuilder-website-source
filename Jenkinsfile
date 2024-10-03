@@ -89,7 +89,10 @@ spec:
         }
       }
       steps {
-        sh 'rm -rf www/* && cp -Rvf hugo/public/* www/'
+        dir('www') {
+            sh 'rm -rf $(ls -I "*.md" -I "LICENSE")'
+        }
+        sh 'cp -Rvf hugo/public/* www/'
         dir('www') {
             sshagent(['github-bot-ssh']) {
                 sh '''
