@@ -37,6 +37,7 @@ The following update sites are the most generally useful:
 |                    | Download and Install                                                     |
 |--------------------|-------------------------------------|------------------------------------|
 | **Version**        | **Update Site**                     | **Zipped Update Site**             |
+| 1.20.0 (Permanent) | {{< p2repo version="1.20.0" >}}     | {{< p2zip version="1.20.0" >}}     |
 | 1.19.0 (Permanent) | {{< p2repo version="1.19.0" >}}     | {{< p2zip version="1.19.0" >}}     |
 | 1.18.0 (Permanent) | {{< p2repo version="1.18.0" >}}     | {{< p2zip version="1.18.0" >}}     |
 | 1.17.0 (Permanent) | {{< p2repo version="1.17.0" >}}     | {{< p2zip version="1.17.0" >}}     |
@@ -47,7 +48,6 @@ The following update sites are the most generally useful:
 | 1.12.0 (Permanent) | {{< p2repo version="1.12.0" >}}     | {{< p2zip version="1.12.0" >}}     |
 | 1.11.0 (Permanent) | {{< p2repo-old version="1.11.0" >}} | {{< p2zip-old version="1.11.0" >}} |
 | 1.10.0 (Permanent) | {{< p2repo-old version="1.10.0" >}} | {{< p2zip-old version="1.10.0" >}} |
-| 1.9.8 (Permanent)  | {{< p2repo-old version="1.9.8" >}}  | {{< p2zip-old version="1.9.8" >}}  |
 | Archives           | [link](https://archive.eclipse.org/windowbuilder/)                       |
 
 
