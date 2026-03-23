@@ -37,6 +37,7 @@ The following update sites are the most generally useful:
 |                    | Download and Install                                                     |
 |--------------------|-------------------------------------|------------------------------------|
 | **Version**        | **Update Site**                     | **Zipped Update Site**             |
+| 1.22.0 (Permanent) | {{< p2repo version="1.22.0" >}}     | {{< p2zip version="1.22.0" >}}     |
 | 1.21.0 (Permanent) | {{< p2repo version="1.21.0" >}}     | {{< p2zip version="1.21.0" >}}     |
 | 1.20.0 (Permanent) | {{< p2repo version="1.20.0" >}}     | {{< p2zip version="1.20.0" >}}     |
 | 1.19.0 (Permanent) | {{< p2repo version="1.19.0" >}}     | {{< p2zip version="1.19.0" >}}     |
