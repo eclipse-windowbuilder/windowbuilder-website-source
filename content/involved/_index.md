@@ -10,7 +10,7 @@ layout: "single"
 
 {{< starterkit/logo-small >}}
 
-The WindowBuilder developers welcome your involvement. Simply follow steps in the Contribution guide:
+The WindowBuilder&trade; developers welcome your involvement. Simply follow steps in the Contribution guide:
 
 [https://github.com/eclipse-windowbuilder/windowbuilder](https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/CONTRIBUTING.md)
 

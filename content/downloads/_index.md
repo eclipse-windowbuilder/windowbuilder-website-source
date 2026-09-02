@@ -9,20 +9,21 @@ layout: "single"
 # WindowBuilder | Download
 
 {{< starterkit/logo-small >}}
-All downloads are provided under the terms and conditions of the [Eclipse Foundation Software User Agreement](/legal/epl/notice.php)
+All downloads are provided under the terms and conditions of the [Eclipse Foundation Software User Agreement](https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html)
 
-Develop Java graphical user interfaces in minutes for Swing, SWT, RCP and XWT with WindowBuilder&rsquo;s 
-WYSIWYG, drag-and-drop interface. Use wizards, editors and intelligent layout assist to automatically generate 
-clean Java code, with the visual design and source always in sync.
+Develop Java&trade; graphical user interfaces in minutes for Swing, SWT and RCP with WindowBuilder&trade;&rsquo;s 
+WYSIWYG, drag-and-drop interface. Use wizards, editors and intelligent layout assist to automatically generate  clean
+Java&trade; code, with the visual design and source always in sync.
 
-These instructions assume that you have already installed some flavor of Eclipse. If you have not, Eclipse 
+These instructions assume that you have already installed some flavor of Eclipse&trade;. If you have not, Eclipse&trade; 
 can be downloaded from [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/). 
-Instructions and system requirements for installing WindowBuilder can be found 
+Instructions and system requirements for installing WindowBuilder&trade; can be found 
 [here](https://help.eclipse.org/index.jsp?topic=/org.eclipse.wb.doc.user/html/installation/index.html).
 
 ## Update Sites
 
-WindowBuilder's new [update sites](https://download.eclipse.org/windowbuilder/updates/) document all the available repository locations as well as their contents and dependencies.
+WindowBuilder&trade;'s new [update sites](https://download.eclipse.org/windowbuilder/updates/) documents all the
+available repository locations as well as their contents and dependencies.
 
 The following update sites are the most generally useful:
 - [https://download.eclipse.org/windowbuilder/updates/release/latest](https://download.eclipse.org/windowbuilder/updates/release/latest)
@@ -37,6 +38,7 @@ The following update sites are the most generally useful:
 |                    | Download and Install                                                     |
 |--------------------|-------------------------------------|------------------------------------|
 | **Version**        | **Update Site**                     | **Zipped Update Site**             |
+| 1.24.0 (Permanent) | {{< p2repo version="1.24.0" >}}     | {{< p2zip version="1.24.0" >}}     |
 | 1.23.0 (Permanent) | {{< p2repo version="1.23.0" >}}     | {{< p2zip version="1.23.0" >}}     |
 | 1.22.0 (Permanent) | {{< p2repo version="1.22.0" >}}     | {{< p2zip version="1.22.0" >}}     |
 | 1.21.0 (Permanent) | {{< p2repo version="1.21.0" >}}     | {{< p2zip version="1.21.0" >}}     |
@@ -54,5 +56,6 @@ The following update sites are the most generally useful:
 | Archives           | [link](https://archive.eclipse.org/windowbuilder/)                       |
 
 
-_**Installing the Update Site or Zip editions requires the full Eclipse SDK including JDT and PDE. 
-Use the Eclipse Committers, Java, Java EE, or RCP/Plug-in Developers distribution or install JDT and PDE separately.**_
+_**Installing the Update Site or Zip editions requires the full Eclipse&trade; SDK including JDT and PDE.  Use the
+Eclipse&trade; Committers, Java&trade;, Java&trade; EE, or RCP/Plug-in Developers distribution or install JDT and PDE
+separately.**_
